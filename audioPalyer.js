@@ -22,13 +22,13 @@ class Button{
          this.playpause();
        });
        this.nameM=[];
-       this.nameM[0]="radio Gafsa FM";
+       this.nameM[0]="Radio Algérie Live";
        this.nameM[1]="Music Cheb Salih";
        this.nameM[2]="Music Mohammed khamis Gafsi";
        this.nameM[3]=" Music Rayen ";
        //src
        this.source=[];
-       this.source[0]="http://rtstream.tanitweb.com/gafsa";
+       this.source[0]="https://ch1.ice.infomaniak.ch/ch1-32.aac";
        this.source[1]="salih.mp3";
        this.source[2]="mahmed.mp3";
        this.source[3]="rayen.mp3";
