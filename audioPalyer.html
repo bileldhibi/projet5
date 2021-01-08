@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audioPalyer</title>
+    <link rel="stylesheet" href="audioPalyer.css"/>
+    <link rel="icon" href="music3.jpg"/>
+    <link rel="shortcut" href="music3.jpg"/>
+    <link rel="apple-touch-icon" href="music3.jpg"/>
+</head>
+<body>
+    <header id="head">
+        <main>
+            <img src="logo.jpg" />
+            <h1 id="h1">LIVE MUSIC</h1>
+            <P id="music">Music 1</P>
+        </main>
+    <div id="div">
+      <article id="button">
+           <img src="back.png" id="back"/>
+           <img src="play.png" id="play"/>
+           <img src="next.png" id="next"/>
+           <audio src="" id="aud"></audio>
+      </article>
+      <article id="volume">
+         <h2>Volume</h2>
+         <input type="range" id="vol1+"/>
+         <h2>Volume Speed</h2>
+         <input type="range" id="vol2-" max="200" min="0"/>
+      </article>
+     <article id="color">
+       <button id="color1"></button>
+       <button id="color2"></button>
+       <button id="color3"></button>
+       <button id="color4"></button>
+       <button id="color5"></button>
+     </article>
+    </div>
+    </header>
+    <script src="audioPalyer.js"></script>
+    <script src="volume.js"></script>
+    <script src="color.js"></script>
+</body>
+</html>

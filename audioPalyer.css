@@ -1,0 +1,125 @@
+/* *{
+    margin: 0px;
+} */
+#head{
+    width: 400px;
+    /* background: linear-gradient(50deg,rgb(141, 33, 74) 45%,rgb(29, 185, 94) 70%,rgb(52, 5, 105)); */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+main{
+    text-align: center;
+    color: transparent;
+    background-image: url(logo.jpg);
+    -webkit-background-clip: text;
+    background-position: 190% 160%;
+    height: 360px;
+   
+}
+main img{
+    padding-top: 94px;
+    width: 200px;
+    height: 150px;
+}
+#h1{
+    margin: 15px 0px;
+}
+#div{
+    background: linear-gradient(to left,rgb(223, 217, 220)  ,rgb(241, 231, 238),rgb(194, 207, 14));
+}
+main p{
+    font-size: 22px;
+}
+#button{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 15px;
+}
+#button img{
+    width: 50px;
+    height: 50px;
+}
+#div{
+    animation-name: bilel;
+    animation-duration: 10s;
+    animation-delay: 3s;
+   animation-iteration-count: infinite;
+}
+@keyframes bilel{
+    0%{
+         background-image: linear-gradient(to right,red,rgb(0, 255, 85),rgb(202, 214, 24));
+    }
+    25%{
+        background-image: linear-gradient(to right,rgb(54, 8, 92),rgb(0, 255, 85),rgb(214, 24, 135));
+    }
+    50%{
+        background-image: linear-gradient(to right,rgb(243, 236, 236),rgb(37, 73, 49),rgb(31, 127, 206));
+    }
+    75%{
+        background-image: linear-gradient(to right,rgb(211, 130, 39),rgb(28, 10, 92),rgb(101, 8, 119));
+    }
+    100%{
+        background-image: linear-gradient(to right,rgb(10, 100, 14),rgb(23, 26, 24),rgb(153, 18, 130));
+    }
+}
+#volume{
+    text-align: center;
+   padding-top: 11px;
+}
+#volume input{
+    width: 100%;
+}
+input[type="range" i]{
+    appearance: none;
+   background: rgb(93, 30, 210);
+   height: 4px;
+   margin: 0px;
+}
+input[type="range" i]::-webkit-slider-thumb{
+    /* input[type="range" i]::-webkit-slider-thumb  تغير ايفونة لونها زرقاء*/
+    appearance: none;
+    background: crimson;
+     height:20px ;
+     width: 22px;
+     border-radius: 25px;
+}
+h2{
+margin: 11px 0px;
+color:rgb(31, 118, 189);
+-webkit-text-stroke: rgb(25, 27, 26)1px;
+}
+/* button color  */
+#color{
+    text-align: center;
+    margin-top: 25px;
+   
+}
+#color button{
+     border-radius: 50%;
+    width: 27px;
+     height:25px ;
+     
+}
+#color1{
+   background: linear-gradient(to right,red,rgb(0, 255, 85),rgb(202, 214, 24));
+    margin-right: 10px;
+}
+#color2{
+    margin-right: 10px;
+    background-image: linear-gradient(to right,rgb(54, 8, 92),rgb(0, 255, 85),rgb(214, 24, 135));
+}
+#color3{
+    margin-right: 10px;
+    background-image: linear-gradient(to right,rgb(243, 236, 236),rgb(37, 73, 49),rgb(31, 127, 206));
+}
+#color4{
+    margin-right: 10px;
+    background-image: linear-gradient(to right,rgb(211, 130, 39),rgb(28, 10, 92),rgb(101, 8, 119));
+}
+#color5{
+    margin-right: 10px;
+    background-image: linear-gradient(to right,rgb(10, 100, 14),rgb(23, 26, 24),rgb(153, 18, 130));
+}
